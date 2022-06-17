@@ -188,7 +188,18 @@
     .main-title {
         left: 20px;
     }
+    .text-block-wrapper {
+        flex-direction: column;
+
+    }
+    .avatar-title {
+        margin: 24px 0;
+    }
+    .p-wrapper {
+        margin-bottom: 24px;
+    }
 }
+
 @media (max-width: 575px) {
     .bottom-text {
         top: 80px;
@@ -239,8 +250,7 @@
     .section3-img-text {
         margin-bottom: 5px;
         max-width: 250px;
- 
-        
+
     }
     .section3-img-title {
         font-size: 20px;
@@ -249,7 +259,6 @@
     .main-title {
         top: 20px;
         left: 5px;
-
     }
     .bottom-text {
         left: 5px;
@@ -306,4 +315,12 @@
         margin-top: 40px;
     }
  
+}
+@media (max-width: 1100px) {
+    .avatar-text-wrapper {
+        width: 100%;
+    }
+    .avatar-title {
+        margin-bottom: 20px;
+    }
 }

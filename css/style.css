@@ -539,3 +539,41 @@
     font-weight: bold;
     text-transform: uppercase;
 }
+/* page2/section2 */
+.text-block-wrapper {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #EBEDED;
+    border-bottom: 2px solid #EBEDED;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    vertical-align: top;
+    flex-wrap: wrap;
+    
+}
+.p-wrapper {
+    max-width: 360px;
+    width: 100%;
+}
+.avatar-title {
+    max-width: 360px;
+    width: 100%;
+    color: #202124;
+    font-size: 24px;
+    font-family: 'Acumin Pro';
+    margin-top: 20px;
+    font-weight: bold;
+}
+.small-paragraph {
+    font-size: 14px;
+    color: #A6ADB4;
+}
+.small-time {
+    font-size: 14px;
+    color: #A6ADB4;
+    margin-top: 19px;
+}
