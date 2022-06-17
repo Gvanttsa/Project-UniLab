@@ -107,6 +107,10 @@
         width: 120px;
         height: 30px;
     }
+    .bottom-text {
+        max-width: 400px;
+        width: 100%;
+    }
 
 }
 @media (max-width: 345px) {
@@ -118,6 +122,11 @@
 @media (max-width: 1180px) {
     .right-block {
         padding: 50px;
+    }
+    .section3-flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
 }
@@ -136,7 +145,7 @@
         display: none;
     }
 }
-@media (max-width: 750px) {
+@media (max-width: 739px) {
     .box-wrapper {
         justify-content: center;
         align-items: center;
@@ -144,9 +153,104 @@
     .middle-box {
         margin-top: 40px;
     }
-}
-/* @media (max-width: 380px) {
-    .each-box {
-        width: 200px;
+    .div-img {
+        max-width: 600px;
+        width: 100%;
     }
-} */
+}
+@media (max-width: 780px) {
+    .bottom-text {
+        top: 200px;
+        left: 20px;
+        max-width: 500px;
+        width: 100%;
+    }
+    .main-title {
+        left: 20px;
+    }
+}
+
+@media (max-width: 745px) {
+    .bottom-text {
+        top: 150px;
+        left: 20px;
+        max-width: 400px;
+        width: 100%;
+    }
+    .main-title {
+        left: 20px;
+    }
+}
+@media (max-width: 575px) {
+    .bottom-text {
+        top: 80px;
+        left: 20px;
+        max-width: 300px;
+        width: 100%;
+    }
+    .main-title {
+        left: 20px;
+    }
+    .section3-img-text {
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 440px) {
+    .bottom-text {
+        top: 50px;
+        left: 20px;
+        max-width: 320px;
+        width: 100%;
+    }
+    .section3-img-title {
+        margin-bottom: 5px;
+    }
+ 
+}
+@media (max-width: 430px) {
+    .bottom-text {
+        top: 40px;
+        left: 20px;
+
+    }
+    .section3-img-text {
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 360px) {
+    .bottom-text {
+        top: 40px;
+        left: 20px;
+
+    }
+    .section3-img-text {
+        margin-bottom: 5px;
+        max-width: 250px;
+ 
+        
+    }
+    .section3-img-title {
+        font-size: 20px;
+
+    }
+    .main-title {
+        top: 20px;
+        left: 5px;
+
+    }
+    .bottom-text {
+        left: 5px;
+    }
+}
+@media (max-width: 343px) {
+    .bottom-text {
+        width: 250px;
+    }
+    .main-title {
+        top: 15px;
+    }
+    .section3-img-title {
+        top: 20px;
+        margin-bottom: 2px;
+    }
+}
