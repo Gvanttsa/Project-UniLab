@@ -111,6 +111,9 @@
         max-width: 400px;
         width: 100%;
     }
+    .text-img-div {
+        left: 50px;
+    }
 
 }
 @media (max-width: 345px) {
@@ -126,6 +129,10 @@
     .section3-flex {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+    }
+    .page2-container1 {
+        flex-direction: column;
         align-items: center;
     }
 
@@ -247,6 +254,10 @@
     .bottom-text {
         left: 5px;
     }
+    .text-img-div {
+        top: 70px;
+        left: 20px;
+    }
 }
 @media (max-width: 343px) {
     .bottom-text {
@@ -292,6 +303,7 @@
         display: none;
     }
     .icons {
-        display: none;
+        margin-top: 40px;
     }
+ 
 }

@@ -421,3 +421,121 @@
 .fa-earth-americas {
     color: #FFFFFF;
 }
+
+/* page2 */
+.page2-wrapper1 {
+    max-width: 1174px;
+    width: 100%;
+    margin-bottom: 42px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.wrapper-icon {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #EBEDED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.fa-sliders {
+    color: 30px;
+    display: inline-block;
+}
+.page2-title {
+    display: inline-block;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+}
+.world-news {
+    color: #A6ADB4;
+}
+.desh {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.page2-container1 {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+}
+.block-left {
+    position: relative;
+}
+.text-img-div {
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    text-align: center;
+}
+.block-left-img {
+    max-width: 580px;
+    width: 100%;
+}
+.block-left-title {
+    font-size: 32px;
+    font-family: 'Helvetica';
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+.block-left-line {
+    width: 40px;
+    height: 3px;
+    background-color: #FA6980;
+    margin: 0 auto;
+    border-radius: 15%;
+}
+.block-left-text {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Helvetica';
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.block-right {
+    max-width: 580px;
+    width: 100%;
+    height: 500px;
+}
+.block-right-content {
+    max-width: 360px;
+    margin: 0 auto;
+    margin-top: 125px;
+
+}
+.select-button {
+    max-width: 360px;
+    width: 100%;
+    height: 40px ;
+    border: none;
+}
+.data-select {
+    font-size: 13px;
+    text-transform: capitalize;
+    font-family: 'Helvetica';
+}
+.select-wrapper {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.button {
+    width: 134px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-family: 'Helvetica';
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+}
