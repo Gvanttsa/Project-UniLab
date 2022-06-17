@@ -151,6 +151,10 @@
     .last-box {
         display: none;
     }
+    .numbers {
+        display: block;
+        margin-bottom: 70px;
+    }
 
 }
 @media (max-width: 739px) {

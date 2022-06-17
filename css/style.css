@@ -577,3 +577,42 @@
     color: #A6ADB4;
     margin-top: 19px;
 }
+/* page2/last section */
+.last-section-wrapper {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 2px solid #EBEDED;
+    margin-bottom: 38px;
+}
+.last-p {
+    max-width: 670px;
+    width: 100%;
+    color: #A6ADB4;
+    font-size: 14px;
+    font-family: 'Helvetica';
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.elephant-img {
+    max-width: 1160px;
+    width: 100%;
+}
+.numbers {
+    width: 233px;
+    margin: 0 auto;
+    display: none;
+}
+.numbers-list {
+    display: flex;
+    justify-content: space-between;
+}
+.number-li {
+    font-family: 'Helvetica';
+    font-size: 11px;
+    line-height: 20px;
+    color: #A6ADB4;
+}
+.first-li {
+    color: #202124;
+}
