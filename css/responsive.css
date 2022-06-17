@@ -131,3 +131,22 @@
         padding: 15px;
     }
 }
+@media (max-width: 768px) {
+    .last-box {
+        display: none;
+    }
+}
+@media (max-width: 750px) {
+    .box-wrapper {
+        justify-content: center;
+        align-items: center;
+    }
+    .middle-box {
+        margin-top: 40px;
+    }
+}
+/* @media (max-width: 380px) {
+    .each-box {
+        width: 200px;
+    }
+} */
